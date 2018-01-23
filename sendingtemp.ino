@@ -49,6 +49,6 @@ void loop()
   Serial.print(message);
   Akeru.sendPayload(message);
 
-  delay(10000000);
+  delay(600000);
   
 }
